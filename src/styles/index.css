@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.table{
+  text-align: center;
+  width: 800px;
+}
+.btn{
+    margin: 5px;
+}
+input[type=text]{
+  background: #fff;
+}
+input[type=checkbox]{
+  width: 20px;
+  height: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+.form-group, .form-control {
+  background : rgb(250,250,250);
+}
+.tableHeader{
+  background : rgb(240,240,240);
+}
+.list{
+  height : 500px;
+  overflow : scroll;
+}
+.editable-cell {
+  position: relative;
+}
+.editable-cell-icon,
+.editable-cell-icon-check {
+  cursor: pointer;
+}
+.editable-cell-icon {
+  line-height: 14px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+  display: none;
+}
+td:hover .editable-cell-icon {
+  display: inline-block;
+}
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+  color: #108ee9;
+}

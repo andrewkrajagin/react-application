@@ -1,0 +1,1 @@
+export const toEmployeeInputForm = '/EmployeeInputForm';
